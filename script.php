@@ -9,5 +9,6 @@ echo "<h2>" .$num . "<h2>";
 echo "<h3>" .$float . "<h3>"; */ // multiple comments
 
 $cricket_teams = array("Sri Lanka","India","Australia","New Zeland");
-echo var_dump($cricket_teams); // this is the array use in PHP
+//echo var_dump($cricket_teams); // this is the array use in PHP
+echo var_dump($cricket_teams[1]); // get the place of variable in the array. 
 ?>
