@@ -22,4 +22,7 @@ $var = 5; // IF use
 if($var > 7){
     echo $var;
 }
+else{
+    echo "The not correct";// use if with else
+}
 ?>
