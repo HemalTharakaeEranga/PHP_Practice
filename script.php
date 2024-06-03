@@ -15,6 +15,11 @@ echo "<h3>" .$float . "<h3>"; */ // multiple comments
 //define("laptops","HP,Lenovo,Asus");//define function use
 //echo laptops;
 
-define("laptops",["HP","Lenovo","Asus"]);//define function called place
-echo laptops[2];
+//define("laptops",["HP","Lenovo","Asus"]);//define function called place
+//echo laptops[2];
+
+$var = 5; // IF use
+if($var > 7){
+    echo $var;
+}
 ?>
