@@ -18,11 +18,24 @@ echo "<h3>" .$float . "<h3>"; */ // multiple comments
 //define("laptops",["HP","Lenovo","Asus"]);//define function called place
 //echo laptops[2];
 
-$var = 5; // IF use
+/*$var = 5; // IF use
 if($var > 7){
     echo $var;
 }
 else{
     echo "The not correct";// use if with else
+}*/
+$var = 4; // IF use
+if($var % 2 == 0 && $var % 3 == 0){
+    echo "divisible by both";
+}
+elseif($var % 2 == 0){
+    echo "divisible by 2";
+}
+elseif($var % 3 == 0){
+    echo "divisible by 3";
+}
+else{
+    echo "divisible is not";// use if with else
 }
 ?>
