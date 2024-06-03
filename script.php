@@ -24,7 +24,7 @@ if($var > 7){
 }
 else{
     echo "The not correct";// use if with else
-}*/
+}
 $var = 4; // IF use
 if($var % 2 == 0 && $var % 3 == 0){
     echo "divisible by both";
@@ -38,4 +38,34 @@ elseif($var % 3 == 0){
 else{
     echo "divisible is not";// use if with else
 }
+
+$level = 10; // switch statement
+switch($level){
+    case 1:
+        echo "you are playing easy";
+        break;
+    case 2:
+        echo "you are playing medium";
+        break;
+    case 3:
+        echo "you are playing hard";
+        break;
+    default:
+        echo "you are not playing";
+}*/
+
+$var = 1;//odds numbers
+while($var <= 10){
+    echo "Numbers: $var <br>";
+    $var += 2;
+}
+echo "<br>"; // give betweens space in lines
+$var = 1;//evens numbers 
+while($var <= 10){
+    if ($var % 2 == 0) {
+        echo "Numbers: $var <br>";
+    }
+    $var++;
+}
+
 ?>
