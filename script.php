@@ -52,7 +52,7 @@ switch($level){
         break;
     default:
         echo "you are not playing";
-}*/
+}
 
 $var = 1;//odds numbers
 while($var <= 10){
@@ -66,6 +66,14 @@ while($var <= 10){
         echo "Numbers: $var <br>";
     }
     $var++;
-}
+}*/
+
+//do while
+
+$var = 11;
+do{
+    echo "Numbers: $var <br>";
+    $var++;
+}while($var <= 10) // Number: 11 is the answer 
 
 ?>
