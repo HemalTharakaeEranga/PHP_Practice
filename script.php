@@ -66,7 +66,7 @@ while($var <= 10){
         echo "Numbers: $var <br>";
     }
     $var++;
-}*/
+}
 
 //do while
 
@@ -74,6 +74,56 @@ $var = 11;
 do{
     echo "Numbers: $var <br>";
     $var++;
-}while($var <= 10) // Number: 11 is the answer 
+}while($var <= 10) // Number: 11 is the answer
+
+for($var = 1;$var <=6;$var++){// forloop
+    if($var % 2 == 0){
+        echo "Numbers: $var <br>"; 
+    }
+}
+
+//for loop
+for ($var = 1; $var <= 4; $var++) {
+    echo "$var";
+    for ($var1 = $var - 1; $var1 >= 1; $var1--) {
+        echo ",$var1";
+    }
+    echo "<br>";
+}
+
+for ($var = 1; $var <= 4; $var++) { // nested loop
+    if ($var == 1) {
+        echo "$var <br>";
+    } else {
+        echo "$var,";
+        for ($var1 = $var - 1; $var1 > 0; $var1--) {
+            echo "$var1";
+            break;
+        }
+        echo "<br>";
+    }
+}
+
+for ($var = 1; $var <= 5; $var++) { 
+    for ($var1 = 1; $var1 <= $var; $var1++) { 
+        echo "*";
+    }
+    echo "<br>"; 
+}*/
+
+function name(){ // function call
+    for($var = 1;$var <=6;$var++){
+        echo "Number: $var <br>";
+    }
+}
+
+name();
+
+
+
+
+
+
+
 
 ?>
