@@ -23,7 +23,7 @@ class Prado extends car_collection{
     }
 }
 
-    $prado = new Prado("Toyota","black");
+    $prado = new Prado("Toyota","black",2024);
     $prado->message();
     echo "\n"; 
     $prado->intro();
