@@ -120,6 +120,15 @@ function name(){ // function call
 name();
 
 
+// The command you want to run
+$command = 'ls -la';
+
+// Run the command
+$output = shell_exec($command);
+
+// Display the output
+echo "<pre>$output</pre>";
+
 
 
 
