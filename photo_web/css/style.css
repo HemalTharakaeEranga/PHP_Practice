@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body background color to black */
+body {
+    background-color: black;
+    color: white; /* Set text color to white for contrast */
+}
+
+/* Carousel styling */
+.carousel-item img {
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: #343a40; /* Dark background color */
+    border-color: #343a40; /* Border color matching background */
+}
+
+.dropdown-item {
+    color: #ffffff; /* White text color */
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #495057; /* Darker shade on hover/focus */
+    color: #ffffff; /* Keep text color white on hover/focus */
+}
+
+.dropdown-divider {
+    border-top: 1px solid #6c757d; /* Divider color */
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    background-color: #282828; /* Dark gray section background */
+    margin-top: -50px; /* Adjust the negative margin to move the section above the navbar */
+    position: relative;
+    z-index: 1;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
